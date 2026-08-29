@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="./images/netflixlogo.ico">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-size: cover;
+        }
+        .shade {
+            background-color: rgba(0,0,0,0.8);
+            margin-top: -10px;
+            margin-left: -10px;
+            width: 101.3%;
+            margin-bottom: -25px;
+            color: white;
+            
+        }
+        header {
+            padding: 40px 150px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-family: arial;
+        }
+        .brand-tittle {
+            font-size: 40px;
+            color: red;
+            font-weight: bold;
+        }
+        .shortcuts {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .language {
+            border: 1px solid white;
+            align-items: center;
+            padding: 10px;
+            margin-right: 20px;
+            background-color: rgba(0 0 0 o.86);
+            border-radius: 5px;
+            width: 110px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .btn-signin {
+            background-color: red;
+            padding: 10px;
+            width: 40px;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold
+        }
+        section {
+            text-align: center;
+            padding-top: 100px;
+            font-family: arial;
+        }
+        .section-tittle {
+            margin-bottom: 20px;
+            font-size: 55px;
+            font-weight: bold;
+        }
+        .section-subtittle {
+            font-size: 20px;
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+        .main-tittle {
+            margin-bottom: 15px;
+        }
+        .get-started {
+            display: flex;
+            justify-content: center;
+            border-radius: 2px;
+        }
+        .email {
+            border: 1px solid gray;
+            padding: 15px;
+            width: 400px;
+            text-align: left;
+            background-color: rgba(0 0 0 0.7);
+            color: gray;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn-start {
+            background-color: red;
+            padding: 20px;
+            margin-left: 20px;
+            border-radius: 5px;
+            width: 150px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        footer {
+            padding: 40px 80px;
+            margin-top: 100px;
+            font-family: arial;
+        }
+        .row1 {
+            margin-bottom: 30px;
+        }
+        .row2 {
+            margin-bottom: 30px;
+            columns:4;
+            color: rgb(212 212 212);
+            font-size: 16px;
+        }
+        .row2 span {
+            display: block;
+            margin-bottom: 20px;
+        }
+        .row3 {
+            margin-bottom: 30px;
+        }
+        .row4 {
+            margin-bottom: 30px;
+            color: gray;
+            font-size: 14;
+        }
+        .row5 {
+            color: gray;
+            font-size: 12px;
+        }
+        .faqs {
+            text-align: left;
+            padding: 40px 150px;
+        }
+        .faq-tittle {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .faq-items {
+            background-color: rgb(74 74 74);
+            padding: 20px;
+            font-family: areal;
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body background="../public/images/netflixbg.jpg">
+    <div class="shade">
+        <header>
+            <div>
+                <span class="brand-tittle">NETFLIX</span>
+            </div>
+            <div class="shortcuts">
+                <div class="language">
+                    <span class="bi bi-translate"></span>
+                    <span>Language</span>
+                    <span class="bi bi-caret-down-fill"></span>
+                </div>
+                <div class="btn-signin">
+                Signin
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="section-tittle">Unlimited movies,<br> shows, and more</div>
+            <div class="section-subtittle">Starts at ₹149. Cancel at any time.</div>
+            <main>
+                <div class="main-tittle">
+                    Ready to watch? Enter your email to create or restart your membership.
+                </div>
+                <div class="get-started">
+                    <div class="email">Email Address</div>
+                    <div class="btn-start">
+                        Get Started<span class="bi bi-chevron-right"></span>
+                    </div>
+                </div>
+            </main>
+
+            <div class="faqs">
+                <div class="faq-tittle">Frequently Asked Questions</div>
+                <div class="faq-items">
+                    <span>What is Netflix?</span>
+                    <span class="bi bi-plus-lg"></span>
+                </div>
+                <div class="faq-items">
+                    <span>How Much Does Netflix Cost? </span>
+                    <span class="bi bi-plus-lg"></span>
+                </div>
+                <div class="faq-items">
+                    <span>Whare can i Watch?</span>
+                    <span class="bi bi-plus-lg"></span>
+                </div>    
+                <div class="faq-items">
+                    <span>How do i Cancel?</span>
+                    <span class="bi bi-plus-lg"></span>
+                </div>
+                <div class="faq-items">
+                    <span>What can i watch on Netflix?</span>
+                    <span class="bi bi-plus-lg"></span>
+                </div>
+                <div class="faq-items">
+                    <span>is Netflix good for Kids</span>
+                    <span class="bi bi-plus-lg"></span>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="row1">
+                <address>
+                    Questions? Call 000-800-919-1743
+                </address>
+            </div>
+            <div class="row2">
+                <div>
+                    <span>FAQs</span>
+                    <span>Investors Relations</span>
+                    <span>Privacy</span>
+                    <span>Speed Test</span>
+                </div>
+                <div>
+                    <span>Help Centers</span>
+                    <span>Jobs</span>
+                    <span>Cookie Preferences</span>
+                    <span>Legal Notices</span>
+                </div>
+                <div>
+                    <span>Account</span>
+                    <span>Ways to Watch</span>
+                    <span>Corporate Information</span>
+                    <span>Olny on Netflix</span>
+                </div>
+                <div>
+                    <span>Media Centers</span>
+                    <span>Terms of Use</span>
+                    <span>Contact Us</span>
+                    <span>Email</span>
+                </div>
+            </div>
+            <div class="row3">
+                <Div class="language">
+                    <span class="bi bi-translate"></span>
+                    <span>Language</span>
+                    <span class="bi bi-caret-down-fill"></span>
+                </Div>
+            </div>
+            <div class="row4">
+                Netflix India
+            </div>
+            <div class="row5">
+                This page is protected by Google reCAPTCHA to ensure you're not a bot.
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

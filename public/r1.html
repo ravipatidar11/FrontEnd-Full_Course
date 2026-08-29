@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <style>
+
+    body {
+
+        display: grid;
+
+        grid-template-columns: 2fr 10fr;
+
+        padding: 40px;
+
+    }
+
+    .card {
+
+        width: 200px;
+
+        border:1px solid black;
+
+        padding: 20px;
+
+        margin: 10px;
+
+        display: none;
+
+    }
+
+    main {
+
+        display: flex;
+
+        flex-direction: row;
+
+    }
+
+    nav {
+
+        font-size: 20px;
+
+    }
+
+    nav div {
+
+        margin-bottom: 20px;
+
+    }
+
+    .card:target {
+
+        background-color: black;
+
+        color:white;
+
+        border-radius: 100%;
+
+        display: block;
+
+    }
+
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+
+        <div><a href="#html">HTML</a></div>
+
+        <div><a href="#css">CSS</a></div>
+
+        <div><a href="#js">Javascript</a></div>
+
+    </nav>
+
+    <main>
+
+        <div class="card" id="html">
+
+            <h1>HTML</h1>
+
+            <ol>
+
+                <li>Normal Elements</li>
+
+                <li>Void Elements</li>
+
+            </ol>
+
+        </div>
+
+        <div class="card" id="css">
+
+            <h1>CSS</h1>
+
+            <ol>
+
+                <li>Selectors</li>
+
+                <li>Units</li>
+
+            </ol>
+
+        </div>
+
+        <div class="card" id="js">
+
+            <h1>Javascript</h1>
+
+            <ol>
+
+                <li>Variables</li>
+
+                <li>Statements</li>
+
+            </ol>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>

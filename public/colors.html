@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        pre {
+
+            font-family: Arial;
+
+            font-size: 20px;
+
+        }
+
+        var {
+
+            color:blue;
+
+        }
+
+        .note {
+
+            font-family: Arial;
+
+        }
+
+        samp {
+
+            border : 1px solid gray;
+
+            padding: 2px;
+
+            border-radius: 5px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="note">
+        
+        Write a function <samp><small>createHelloWorld</small>.</samp> It should return a new function that always returns <samp><small>Hello World!</small></samp>.
+
+    </div>
+    <code>
+
+        <pre>
+
+            var <var>createHelloWorld</var> = function()
+            
+            {
+
+
+
+                return function(...args)
+                
+                {
+
+
+
+                    return "Hello World !";
+
+                }
+
+        }
+
+    </pre>
+
+    </code>
+
+</body>
+
+</html>

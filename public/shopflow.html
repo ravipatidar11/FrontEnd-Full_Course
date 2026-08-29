@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Flow</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header {
+            background-color: whitesmoke;
+            height: 100px;
+            
+            font-family: arial;
+            font-size: 18px;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .brand-logo {
+            font-size: 25px;
+            font-family: arial;
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+            display: flex;
+            padding: 20px;
+        }
+        .icon {
+            font-size: 20px;
+            padding-right: 20px;
+            align-items: center;
+        }
+        .tittle {
+            font-size: 20px;
+            align-items: center;
+        }
+        nav span {
+            padding-right: 35px;
+        }
+        .search-bar {
+            background-color: rgb(243, 242, 242);
+            border: 1px solid gray;
+            border-radius: 25px;
+            width: 190px;
+            padding: 10px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: rgb(78, 75, 75);
+            font-size: 14px;
+            display: flex;
+            margin: 10px;
+        }
+        .short-cuts {
+            display: flex;
+        }
+        .shortcut-item {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="brand-logo">
+            <div class="icon">
+                <span class="bi bi-bag-check-fill"></span>
+            </div>
+            <div class="icon">
+                <div class="tittle">
+                    <span class="shortcut-title">Shop Flow</span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <nav class="nav-items">
+                <span>Home</span>
+                <span>Shop</span>
+                <span>New Arrivals</span>
+                <span>Sale</span>
+            </nav>
+        </div>
+        <div>
+            <div class="search-bar">
+                <div>
+                <span class="bi bi-search"></span>
+                </div>
+                <div>
+                <span>Search curated styles...</span>
+                </div>
+            </div>
+        </div>
+        <div class="short-cuts">
+            <div class="shortcut-item">
+                <span class="bi bi-person"></span>
+            </div>
+            <div class="shortcut-item">
+                <span class="bi bi-heart"></span>
+            </div>
+            <div class="shortcut-item">
+                <span class="bi bi-cart3"></span>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
