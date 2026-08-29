@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+     <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</head>
+
+<body class="p-1">
+
+    <header class="d-flex justify-content-between p-3 border border-1 fs-4">
+
+        <div>
+
+            <button data-bs-toggle="offcanvas" data-bs-target="#menu" class="btn btn-lg"><span class="bi bi-justify"></span></button>
+
+            <span>Amazon</span>
+
+        </div>
+
+        <div>
+
+            <button  data-bs-toggle="offcanvas" data-bs-target="#cart" class="btn btn-warning bi bi-cart4"></button>
+
+        </div>
+
+    </header>
+
+    <div class="offcanvas offcanvas-start" id="menu">
+
+        <div class="offcanvas-header bg-dark text-white">
+
+            <h3>Amazon</h3>
+
+            <button class="btn btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+
+        </div>
+
+        <div class="offcanvas-body">
+
+            <ol>
+
+                <li>Electroncis</li>
+
+                <li>Fashion</li>
+
+                <li>Offers</li>
+
+            </ol>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="offcanvas offcanvas-end" id="cart">
+
+        <div class="offcanvas-header">
+
+            <h3>Your Cart</h3>
+
+            <button class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+
+        </div>
+
+        <div class="offcanvas-body">
+
+            <ol>
+
+                <li>Item-1</li>
+
+                <li>Item-2</li>
+
+            </ol>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
