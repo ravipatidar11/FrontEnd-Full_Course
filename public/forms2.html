@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <div>
+        <form>
+
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name ="name" required placeholder="Ravi" autofocus size="20" minlength="4" maxlength="12" required><br><br>
+        
+        <label for ="crs">Courses:</label>
+        <input type="text" name="crs" list="courses" placeholder="HTML">
+        
+        <datalist id="courses" >
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </datalist>
+        <br>
+        <br>
+        
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" required>
+        <br>
+        <br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+        
+        <label for="url">Website:</label>
+        <input type="url" id="url" name="url" required>
+        <br>
+        <br>
+        
+        <label for="num">Number:</label>
+        <input type="tel" id="num" name="num" required>
+        <br>
+        <br>
+
+        <label for="cntry">Country:</label>
+        <select name="country" id="country" id="cntry" required>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="Football" >Football Players:</label>
+        <input type="checkbox" name="ronaldo" value="1" id="Football">Ronaldo
+        <input type="checkbox" name="messi" value="2" id="Football">Messi
+        <br>
+        <br>
+
+        <label for="cars">Cars:</label>
+        <select name="cars" id="cars" required multiple id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+        <br>
+        
+        <fieldset>
+            <legend>Interest</legend>
+
+            <input type="checkbox" name="interest" value="sports">Sports<br>
+            <input type="checkbox" name="interest" value="music">Music<br>
+            <input type="checkbox" name="interest" value="reading">Reading<br>
+        
+        </fieldset>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Gender</legend>
+
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+        
+        </fieldset>
+        <br>
+        <br>
+        
+        <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
